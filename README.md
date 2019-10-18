@@ -9,4 +9,5 @@ Usando el Standard Firmata, la placa tiene la capacidad de recibir instrucciones
 
 ## Métodos
 Hay un tipo de Resistencia llamada Fotoresistencia. Esta resiste más electricidad entre menos luz exista en el ambiente. Podre entonces mediante la medición de la resistencia eléctrica, determinar la cantidad (en un intervalo [0;1024)) de luz en el espacio incidente de la fotoresistencia. Con este input recibido por la Placa, puedo programar que un servo se mueva.
+Habrá un Led de comprobación conectado al puerto 13, el Servo estará conectado al puerto 2. Y la diferencia de resistencia del Fotoresistor estará conectada al input análogo A0.
 
